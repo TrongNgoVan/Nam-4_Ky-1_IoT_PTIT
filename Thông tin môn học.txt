@@ -7,5 +7,14 @@ Mail: thuyttt@ptit.edu.vn
 - Cuối mỗi buổi sẽ có mini test
 10 cc
 20 thực hành
-20 kiểm tra
-50 bài tập lớn ( 1-3 người)
+10 ý tưởng BTL + đề cương + Plan.
+̉60 bài tập lớn ( 1-3 người)
+
+
+Hệ thống nhà( phòng học) thông minh bao gồm:
+ + Hệ thống Camera( Phân loại rác + Nhận diện khuôn mặt hoặc khẩu trang ) ->Phân tích AI trên phần mềm -> Có thể điều khiển đóng mở cửa( Device -> Cloud -> Train AI -> Device)
+ + Hệ thống  cảm biến mưa ( tự động đóng mở cửa) -> điều khiển motor cánh cửa 
+ + Hệ thống tự điều khiển từ xa ( Bật/tắt Led, quạt, cửa) -> điều khiển motor
+=> Phần mềm riêng biệt 
+
+
