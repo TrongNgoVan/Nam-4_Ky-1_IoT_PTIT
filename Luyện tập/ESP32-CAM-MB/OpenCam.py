@@ -9,9 +9,11 @@ while(1):
     img_np= np.array(bytearray(img.read()), dtype=np.uint8)
     frame=cv2.imdecode(img_np,-1)
     print(frame)
-    cv2.imshow("ESP32_CAM_Trong",frame)
+    cv2.imshow("Ngo Van Trong",frame)
     if cv2.waitKey(10) & 0xFF==ord('q'):
         frame.release()
         cv2.destroyAllWindows()
         break
+
+
 
