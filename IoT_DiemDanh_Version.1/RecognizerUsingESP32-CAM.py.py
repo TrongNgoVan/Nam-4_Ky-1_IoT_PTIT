@@ -1,6 +1,6 @@
 
 
-#  Ver 2
+#  Ver 2 nhận diện qua ESP32 -CAM và gửi thông báo về máy tính.
 
 import cv2
 import urllib.request
@@ -58,8 +58,9 @@ while True:
 
             # Nhận diện khuôn mặt
             id, dist = recognizer.predict(gray[y:y + h, x:x + w])
+#  ESP 32- CAM chất lượng thấp nên có thể tăng độ sai số khi phát hiện ra
 
-            if dist <= 80:
+            if dist <= 50:
                 profile = getProfile(id)
                 if profile is not None:
                     message = f"Sinh viên: {profile[1]} đã điểm danh"

@@ -1,5 +1,5 @@
 
-# Ver 1 nhận diện qua cam Máy tính
+# Ver 1 nhận diện qua cam Máy tính, nhận diện và gửi thông báo về máy tính.
 import cv2
 import numpy as np
 import sqlite3
@@ -56,8 +56,8 @@ while True:
 
         profile = None
 
-        # Nếu độ sai khác <= 40 thì lấy profile
-        if dist <= 45:
+        # Nếu độ sai khác <= 35 thì lấy profile
+        if dist <= 35:
             profile = getProfile(id)
             if profile is not None:
                 message = f"Sinh viên: {profile[1]} đã điểm danh"
