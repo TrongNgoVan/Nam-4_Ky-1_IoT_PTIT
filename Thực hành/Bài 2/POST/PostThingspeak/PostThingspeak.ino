@@ -1,14 +1,16 @@
+#include <PubSubClient.h>
+
 #include "DHT.h"
 #include <HTTPClient.h>
 #include <WiFi.h>
 #include <string.h>
-const char* ssid ="Therainman";     //"PTIT_LAB DAO TAO";
-const char* password ="0123456789";   //"buuchinh@" ;
+const char* ssid ="Free Wifi";     
+const char* password ="140803hihihi";   
 #define DHTPIN 14     // Digital pin connected to the DHT sensor
 #define DHTTYPE DHT11   // DHT 11
  
 DHT dht(DHTPIN, DHTTYPE);
-String UrlThingspeak = "https://api.thingspeak.com/update?api_key=1C98661JAE1N60BM";
+String UrlThingspeak = " https://api.thingspeak.com/update?api_key=H24NMKJ4QVEMFD0C";
 String httpGETRequest(const char* Url);
 //************************************************************************************
 void setup() {
